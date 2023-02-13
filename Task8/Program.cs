@@ -3,7 +3,12 @@
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
 
+Console.WriteLine("Введите число: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int temp = 0;
 
-
-
-
+while (temp <= N)
+{
+    Console.Write($"{temp} ");
+    temp = temp + 2;
+}
